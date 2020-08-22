@@ -34,6 +34,8 @@ room = assign_rooms "array"
 badge = batch_badge_creator "array"
 
 def printer(people)
+  room = assign_rooms "array"
+  badge = batch_badge_creator "array"
   puts "#{room}"
   puts "#{badge}"
 end
