@@ -35,8 +35,12 @@ end
 def printer(people)
   room = assign_rooms "array"
   badge = batch_badge_creator "array"
-  puts "#{room}"
-  puts "#{badge}"
+  counter = 0 
+  while counter < badge.length
+  puts "#{badge[counter]}"
+  puts "#{room[counter]}"
+end
+  
 end
 
 
