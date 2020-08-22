@@ -33,8 +33,8 @@ end
 
 
 def printer(people)
-  room = assign_rooms "array"
-  badge = batch_badge_creator "array"
+  room = assign_rooms "people"
+  badge = batch_badge_creator "people"
   counter = 0 
   while counter < badge.length
   puts "#{badge[counter]}"
