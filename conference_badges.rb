@@ -30,7 +30,7 @@ def assign_rooms(name)
   return rooms
 end
 
-room = 
+room = assign_rooms "array"
 
 def printer()
   
