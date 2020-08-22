@@ -39,6 +39,7 @@ def printer(people)
   while counter < badge.length
   puts "#{badge[counter]}"
   puts "#{room[counter]}"
+  counter = couter + 1 
 end
   
 end
