@@ -30,9 +30,13 @@ def assign_rooms(name)
   return rooms
 end
 
+room = []
+badge = []
 
 
-def printer(assign_rooms)
+room.push(assign_rooms(name))
+
+def printer()
   
 end
 
