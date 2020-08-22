@@ -30,8 +30,7 @@ def assign_rooms(name)
   return rooms
 end
 
-room = assign_rooms "array"
-badge = batch_badge_creator "array"
+
 
 def printer(people)
   room = assign_rooms "array"
